@@ -90,7 +90,7 @@ def wait_async_loading(driver, delta=5, maxTry=25, break_threshold=2):
 def main():
     exe = "../../chromedriver.exe"
     capabilities = {
-        'loggingPrefs': {
+        'goog:loggingPrefs': {
             'browser':     'ALL',
             'driver':      'ALL',
             'performance': 'ALL'
